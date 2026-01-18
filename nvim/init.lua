@@ -180,3 +180,6 @@ map("n", "<C-PageUp>", "<C-w>h", { noremap = true, silent = true })   -- go left
 map("n", "<C-PageDown>", "<C-w>l", { noremap = true, silent = true }) -- go right split
 
 
+
+vim.opt.number = true          -- Show absolute line numbers
+vim.opt.relativenumber = true  -- (Optional) Relative line numbers
